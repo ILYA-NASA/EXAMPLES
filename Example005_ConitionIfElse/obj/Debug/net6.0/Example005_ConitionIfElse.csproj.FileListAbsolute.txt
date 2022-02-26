@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.AssemblyInfo.cs
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\bin\Debug\net6.0\Example005_ConitionIfElse.exe
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\bin\Debug\net6.0\Example005_ConitionIfElse.deps.json
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\bin\Debug\net6.0\Example005_ConitionIfElse.runtimeconfig.json
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\bin\Debug\net6.0\Example005_ConitionIfElse.dll
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\bin\Debug\net6.0\Example005_ConitionIfElse.pdb
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.dll
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\refint\Example005_ConitionIfElse.dll
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.pdb
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\Example005_ConitionIfElse.genruntimeconfig.cache
+C:\Users\user\Documents\GB\C#\Examples\Example005_ConitionIfElse\obj\Debug\net6.0\ref\Example005_ConitionIfElse.dll
