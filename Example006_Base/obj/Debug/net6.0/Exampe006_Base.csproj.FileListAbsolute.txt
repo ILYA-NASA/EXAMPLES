@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.AssemblyInfo.cs
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\bin\Debug\net6.0\Exampe006_Base.exe
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\bin\Debug\net6.0\Exampe006_Base.deps.json
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\bin\Debug\net6.0\Exampe006_Base.runtimeconfig.json
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\bin\Debug\net6.0\Exampe006_Base.dll
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\bin\Debug\net6.0\Exampe006_Base.pdb
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.dll
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\refint\Exampe006_Base.dll
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.pdb
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\Exampe006_Base.genruntimeconfig.cache
+C:\Users\user\Documents\GB\C#\Examples\Exampe006_Base\obj\Debug\net6.0\ref\Exampe006_Base.dll
