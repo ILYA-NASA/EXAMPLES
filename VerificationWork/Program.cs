@@ -9,17 +9,7 @@
 // ["1234","1567","-2","computer scince"]->["-2"]
 // ["Russia","Denmark","Kazan"]->[]
 
-
-void PrintArray(string[] array)
-{
-    Console.Write("[");
-    for (int i = 0; i < array.Length - 1; i++)
-    {
-        Console.Write($"{array[i]},");
-    }
-    Console.Write($"{array[array.Length - 1]}]");
-}
-
+// уточняю размер искомого массива: 
 int SearchValidSizeArray(string[] fullArray, int lengthElement)
 {
     string[] validArray = new string[fullArray.Length];
@@ -32,10 +22,11 @@ int SearchValidSizeArray(string[] fullArray, int lengthElement)
             countEmptyElement++;
     }
     validSizeArray -= countEmptyElement;
-    // Console.WriteLine(validSizeArray);
+    if (validSizeArray == 0) validSizeArray++;
     return validSizeArray;
 }
 
+// формирую массив из строк, длина которых меньше либо равна заданному количеству символов: 
 string[] GetLimitLengthElementArray(string[] fullArray, int lengthElement, int sizeArray)
 {
     string[] resultArray = new string[sizeArray];
@@ -46,12 +37,13 @@ string[] GetLimitLengthElementArray(string[] fullArray, int lengthElement, int s
         for (int j = count; j < fullArray.Length; j++)
         {
             string currentElement = fullArray[j];
-            if (currentElement.Length <= lengthElement) // && currentElement != element)
+            if (currentElement.Length <= lengthElement)
             {
                 element = currentElement;
+                count = j;
                 break;
             }
-            count = j + count;
+            else count += j;
         }
         resultArray[i] = element;
         count++;
@@ -59,27 +51,44 @@ string[] GetLimitLengthElementArray(string[] fullArray, int lengthElement, int s
     return resultArray;
 }
 
-// string[] SearchElemtnt(string[] arr, int lengthElement, int sizeArray)
-// {
-//     string[] resultArray = new string[sizeArray];
-//     // string element = string.Empty;
-//     for (int j = 0; j < arr.Length; j++)
-//     {
-//         string currentElement = arr[j];
-//         if (currentElement.Length <= lengthElement)
-//         {
-//             resultArray[j] = currentElement;
-//             // break;
-//         }
-//     }
-// }
+// вывожу масивы на экран (использую формат из примеров задачи): 
+void PrintArray(string[] array)
+{
+    Console.Write("[");
+    for (int i = 0; i < array.Length - 1; i++)
+    {
+        Console.Write($"{array[i]},");
+    }
+    Console.Write($"{array[array.Length - 1]}]");
+}
 
-string[] userArray = { "he", "2", "world", "2", ":-)", "he", ":-)", ":-)" };
+// метод ввода первоначального массива с клавиатуры:
+string[] UserEntersArray()
+{
+    Console.WriteLine("Укажите сколько строк Вы хотите ввести: ");
+    int countString = Convert.ToInt32(Console.ReadLine());
+    string[] newArray = new string[countString];
+    if (countString <= 0) Console.WriteLine("Возвращайтесь, когда захотите что-нибудь ввести!");
+    else
+    {
+        for (int i = 0; i < countString; i++)
+        {
+            Console.Write($"Введите строку №{i + 1}: ");
+            newArray[i] += Console.ReadLine();
+        }
+    }
+    return newArray;
+}
+
+// массивы из примеров задачи:
+// string[] userArray = { "Russia", "Denmark", "Kazan" };
 // string[] userArray = { "hello", "2", "world", ":-)" };
 // string[] userArray = { "1234", "1567", "-2", "computer scince" };
-// string[] userArray = { "Russia","Denmark","Kazan" };
+
+int lengthString = 3; // количество символов в строках искомого массива (из условия задачи)
+string[] userArray = UserEntersArray();
+Console.WriteLine($"Введенные Вами строки и строки, длина которых меньше либо равна {lengthString} символам:");
 PrintArray(userArray);
 Console.Write("->");
-int lengthString = 3;
 int validSizeArray = SearchValidSizeArray(userArray, lengthString);
 PrintArray(GetLimitLengthElementArray(userArray, lengthString, validSizeArray));
